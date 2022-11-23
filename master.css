@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.brand{
+    display: flex;
+}
+
+.brand .menu-logo ul li span{
+    padding: 20px 20px;
+}
+
+.menu-logo img, .menu-logo h1{
+    width: 40px;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.brand ul {
+    display: flex;
+    list-style: none;
+}
+
+.tel, .email{
+    position: absolute;
+    margin-left: 500px;
+    display: inline;
+    text-align: center;
+}
+.email{
+    margin-left: 200px;
+}
+
+.social{
+    
+    position: absolute;
+    margin-left: 900px;
+    padding: 20px 20px;
+}
+
+.social ul li img{
+    padding: 10px ;
+    width: 30px
+}
+
+.menu-logo{
+    padding: 10px 10px;
+}
+
+/* NavBar */
+
+.navbar{
+    margin-top: 9px;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(55, 106, 224);
+    color: #fff;
+    display: inline;
+}
+
+
+.menu-link ul li {
+    padding: 20px 20px;
+    float: left;
+    list-style: none;
+}
+
+.menu-link{
+    margin-left: 200px;
+}
+
+.menu-2{
+    float:right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.menu-2 ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+/*image presentation*/
+
+.image-presentation{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fanswers.opencv.org%2Fupfiles%2F15323327627143592.jpg&f=1&nofb=1&ipt=b1fe59726ec33ee4af25d4514c1913e00ccaa5dc2d64199667d9f8bf02e0c055&ipo=images");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-top: 40px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px #333;
+    z-index: 1;
+}
+
+.text{
+  margin-top: 160px;
+  margin-left: 500px;
+  display: block;
+  text-align: center;
+  position: absolute;
+  font-size: large;
+}
+
+/* services*/
+.services{
+    z-index: 2;
+    margin-top: -60px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.plumbing, .scheduling, .cleaning{
+    border: 1px solid #333;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 15px 5px;
+    width: 100%;
+    height: 200px;
+    display: block;
+    font-size: large;
+    text-align: center;
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px 5px #333;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
