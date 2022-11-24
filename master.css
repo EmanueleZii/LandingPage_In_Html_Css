@@ -130,6 +130,37 @@
     color: #fff;
 }
 
+hr{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 1px dashed #333;
+    border-width: 50%;
+}
+/* footer*/
 
+.footer{
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  padding: 20px 20px;
+  box-shadow: 1px 1px 1px 1px #333;
+  
+}
 
+.image-footer{
+    margin-right: 30px;
+    margin-left: 30px;
+}
 
+.image-footer img{
+    border-radius: 50%;
+}
+
+.text-footer{
+    text-align:center ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-footer ul li{
+    list-style: none;
+}
